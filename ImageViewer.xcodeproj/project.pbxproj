@@ -15,6 +15,9 @@
 		99AA2FFE2778716000D68BBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99AA2FFC2778716000D68BBE /* LaunchScreen.storyboard */; };
 		99AA30092778716000D68BBE /* ImageViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AA30082778716000D68BBE /* ImageViewerTests.swift */; };
 		99AA30142778716000D68BBE /* ImageViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AA30132778716000D68BBE /* ImageViewerUITests.swift */; };
+		99AA303027799DB300D68BBE /* PatagoniaSky.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 99AA302D27799DB300D68BBE /* PatagoniaSky.JPG */; };
+		99AA303127799DB300D68BBE /* CradleMountain.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 99AA302E27799DB300D68BBE /* CradleMountain.JPG */; };
+		99AA303227799DB300D68BBE /* Laguna69.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 99AA302F27799DB300D68BBE /* Laguna69.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		99AA300F2778716000D68BBE /* ImageViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99AA30132778716000D68BBE /* ImageViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerUITests.swift; sourceTree = "<group>"; };
 		99AA30152778716000D68BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99AA302D27799DB300D68BBE /* PatagoniaSky.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PatagoniaSky.JPG; sourceTree = "<group>"; };
+		99AA302E27799DB300D68BBE /* CradleMountain.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CradleMountain.JPG; sourceTree = "<group>"; };
+		99AA302F27799DB300D68BBE /* Laguna69.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Laguna69.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		99AA2FF02778715E00D68BBE /* ImageViewer */ = {
 			isa = PBXGroup;
 			children = (
+				99AA302C27799DB300D68BBE /* Images */,
 				99AA2FF12778715E00D68BBE /* AppDelegate.swift */,
 				99AA2FF32778715E00D68BBE /* SceneDelegate.swift */,
 				99AA2FF52778715E00D68BBE /* ViewController.swift */,
@@ -126,6 +133,16 @@
 				99AA30152778716000D68BBE /* Info.plist */,
 			);
 			path = ImageViewerUITests;
+			sourceTree = "<group>";
+		};
+		99AA302C27799DB300D68BBE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				99AA302D27799DB300D68BBE /* PatagoniaSky.JPG */,
+				99AA302E27799DB300D68BBE /* CradleMountain.JPG */,
+				99AA302F27799DB300D68BBE /* Laguna69.JPG */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +250,10 @@
 			files = (
 				99AA2FFE2778716000D68BBE /* LaunchScreen.storyboard in Resources */,
 				99AA2FFB2778716000D68BBE /* Assets.xcassets in Resources */,
+				99AA303027799DB300D68BBE /* PatagoniaSky.JPG in Resources */,
 				99AA2FF92778715F00D68BBE /* Main.storyboard in Resources */,
+				99AA303227799DB300D68BBE /* Laguna69.JPG in Resources */,
+				99AA303127799DB300D68BBE /* CradleMountain.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
